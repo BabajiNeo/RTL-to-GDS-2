@@ -86,3 +86,7 @@ gui_hide :- hide the gui window <br>
 
 ## Summary <br>
 ![image](https://github.com/user-attachments/assets/1625703a-9dea-4494-8fc1-301eae10fc22)
+
+# Physical Design
+![image](https://github.com/user-attachments/assets/13dc1a19-961c-426d-91cd-b1597942339d)
+
