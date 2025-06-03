@@ -75,3 +75,5 @@ Given by the foundry or could be generated from custom IP with LIBERATE tool <br
     - set_max_dynamic_power  
     - set_max_leakage_power  
 
+# Synthesis Flow (Genus)
+![image](https://github.com/user-attachments/assets/8ef36d09-2372-4def-a588-45cb13c336fb)
