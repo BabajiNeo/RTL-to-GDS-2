@@ -78,7 +78,7 @@ Given by the foundry or could be generated from custom IP with LIBERATE tool <br
 # Synthesis Flow (Genus)
 ![image](https://github.com/user-attachments/assets/8ef36d09-2372-4def-a588-45cb13c336fb)
 
-# Command Window:- (Cadence Genus tool) <br>
+## Command Window:- (Cadence Genus tool) <br>
 genus :- To launch genus <br>
 genus -f genus_script.tcl :- Genus could be launced with batch mode with .tcl script <br>
 gui_show :- To show gui <br>
