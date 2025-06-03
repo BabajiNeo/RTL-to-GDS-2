@@ -1,1 +1,37 @@
 # RTL-to-GDS-2
+
+# Command Window:- (Cadence Simulation/Functional Verification) <br>
+nclaunch :- Compilation, Elaboration and Simulation <br>
+ncverilog :- For Compilation and Elaboration of RTL code <br>
+ncsim :- For simulation of RTL code <br>
+ncvlog :- For compilation of RTL code in verilog <br>
+ncvhdl :- For compilation of RTL code in VHDL <br>
+ncelab :- For elaboration of RTL code <br>
+<br>
+nclaunch -new& :- Launching Simulation tool <br>
+-new switch is used for invoking NCVERILOG for the first time for any design <br>
+nclaunch& :- On subsequent calls to NCVERILOG <br>
+
+# Synthesis
+![image](https://github.com/user-attachments/assets/117da807-8bcf-4185-a9d4-367707181dd1)
+<br>
+
+# Liberty File (.lib)
+For each cell of a library, this file describes
+- The ports (input and output, power).
+- The type of cells: buffer inverter, and gate, IO pads, ..
+- The operating condition
+- The power consuption (optional)
+- The timing modelling <br>
+Given by the foundry or could be generated from custom IP with LIBERATE tool <br>
+
+# Constraint File - SDC (.sdc)
+- SDC:- Synopsis Design Constraint
+- The Chip/Top level sdc is one of the primary input for synthesis
+- All timing information between design and outside:
+  - Clock Signals and relation between clocks
+  - Delay between signals and clock
+  - Input or Output capacitance load
+  - The Timing exceptions
+- Primarily defining regulations that are to be forced onto the design for better efficiancy and lower deviation of area, power, timing from the specifications of the block/chip
+- By default the time is ns.
