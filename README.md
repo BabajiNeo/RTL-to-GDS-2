@@ -35,3 +35,43 @@ Given by the foundry or could be generated from custom IP with LIBERATE tool <br
   - The Timing exceptions
 - Primarily defining regulations that are to be forced onto the design for better efficiancy and lower deviation of area, power, timing from the specifications of the block/chip
 - By default the time is ns.
+
+
+# Common SDC Constraints  
+
+## Operating conditions  
+- **set_operating_conditions**  
+  **Wire-load models**  
+  - set_wire_load_mode  
+  - set_wire_load_model  
+  - set_wire_load_selection_group  
+  **Environmental**  
+  - set_drive  
+  - set_driving_cell  
+  - set_load  
+  - set_fanout_load  
+  - set_input_transition  
+  - set_port_fanout_number  
+  **Design rules**  
+  - set_max_capacitance  
+  - set_max_fanout  
+  - set_max_transition  
+
+## Timing  
+- **create_clock**  
+  - create_generated_clock  
+  - set_clock_latency  
+  - set_clock_transition  
+  - set_disable_timing  
+  - set_propagated_clock  
+  - set_clock_uncertainty  
+  - set_input_delay  
+  - set_output_delay  
+  **Exceptions**  
+    - set_false_path  
+    - set_max_delay  
+    - set_multicycle_path  
+  **Power**  
+    - set_max_dynamic_power  
+    - set_max_leakage_power  
+
