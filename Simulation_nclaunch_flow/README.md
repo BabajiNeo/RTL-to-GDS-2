@@ -1,12 +1,9 @@
----
-
 ## 🟢 NCLaunch Basics
 ```bash
 nclaunch &             # Start NCLaunch GUI
 nclaunch -new &        # Start a fresh project/session
 ```
 
----
 
 ## 🔵 Legacy Flow (separate steps)
 ```bash
@@ -16,7 +13,6 @@ ncelab testbench_top         # Elaborate design hierarchy
 ncsim testbench_top          # Run simulation
 ```
 
----
 
 ## 🟡 Unified Flow (`irun`)
 ```bash
@@ -26,7 +22,6 @@ irun design.v design_tb.v -access +rwc -gui
 - `-access +rwc` → full signal access  
 - `-gui` → launches GUI
 
----
 
 ## 🟣 Common Options
 ```bash
@@ -42,7 +37,6 @@ irun design.v design_tb.v -access +rwc -gui
 -snapshot <name>    # Save elaboration snapshot
 ```
 
----
 
 ## 🔴 Intermediate Examples
 ```bash
@@ -51,7 +45,6 @@ irun design.v design_tb.v -timescale 1ns/1ps -access +rwc -gui
 irun design.v design_tb.v -sv -access +rwc -gui
 ```
 
----
 
 ## 🟣 Advanced Verification Examples
 ```bash
@@ -62,7 +55,6 @@ irun -snapshot snap1 -top testbench_top -access +rwc
 ncsim snap1
 ```
 
----
 
 ## 🟤 Flow Summary
 1. **Start NCLaunch** (`nclaunch`, `nclaunch -new`)  
@@ -74,4 +66,3 @@ ncsim snap1
 7. Use **snapshots** for faster reruns  
 8. Analyze **coverage** with IMC  
 
----
