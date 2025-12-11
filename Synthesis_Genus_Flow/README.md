@@ -117,3 +117,7 @@ report_design > reports/design_summary.rpt
   report verification > reports/lec_verification.rpt
   ```
 
+# 📘 One Liner Genus Synthesis Flow
+```tcl
+source run_genus.tcl
+```
