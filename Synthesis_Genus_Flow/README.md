@@ -118,6 +118,8 @@ report_design > reports/design_summary.rpt
   ```
 
 # 📘 One Liner Genus Synthesis Flow
+- Download the tcl file directly.
+- Run the below command.
 ```tcl
-source run_genus.tcl
+source run.tcl
 ```
