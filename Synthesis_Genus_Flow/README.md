@@ -14,7 +14,7 @@
 
 ## 2. Read Libraries
 ```tcl
-read_libs /home/install/FOUNDRY/digital/90nm/dig/lib/slow.lib
+read_libs /home/install/FOUNDRY/digital/Xnm/dig/lib/slow.lib
 ```
 - Loads Liberty timing library for the 90nm technology node.
 - Choose the correct corner (slow.lib for worst‑case).
