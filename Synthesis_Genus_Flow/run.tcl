@@ -3,13 +3,13 @@
 # ============================================================
 
 # 1. Setup Environment & Inputs
-setenv GENUS_HOME /home/install/genus
+setenv GENUS_HOME /home/install/genus (Give installation path here)
 
 # Read technology libraries
-read_libs /home/install/FOUNDRY/digital/90nm/dig/lib/slow.lib
+read_libs /home/install/FOUNDRY/digital/Xnm/dig/lib/My_lib.lib  (Path to your Library)
 
 # Read RTL sources
-read_hdl rtl/im2col_final.v
+read_hdl rtl/im2col_final.v  (Give here your verilog file)
 
 # Read constraints
 read_sdc sdc/input_constraint.sdc
